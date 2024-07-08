@@ -7,5 +7,5 @@ build({
     platform: 'node',
     entryPoints: ['src/index.js'],
     outfile: 'dist/index.js',
-    target: 'node20',
+    target: 'node18',
 }).catch(() => process.exit(1));
